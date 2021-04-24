@@ -1,19 +1,18 @@
 import Head from 'next/head';
-import styles from '../styles/home.module.css';
 <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>;
 
 export default function Home() {
 	return (
-		<div className={styles.container}>
+		<div className="container">
 			<Head>
 				<title>Julio Mayorga Ubiría</title>
 				<link rel="icon" href="/favicon.ico" />
 			</Head>
 
-			<main className={styles.main}>
-				<div className={styles.header}>
-					<div className={styles.logo}>JULIOMU_</div>
-					<div className={styles.headerIcons}>
+			<main className="main">
+				<div className="header">
+					<div className="logo">JULIOMU_</div>
+					<div className="headerIcons">
 						<svg
 							width="24"
 							height="24"
@@ -26,14 +25,14 @@ export default function Home() {
 							/>
 						</svg>
 
+						<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
 						<lottie-player
-							src="https://assets4.lottiefiles.com/packages/lf20_nwvalyrc.json"
+							src="https://assets7.lottiefiles.com/packages/lf20_nwvalyrc.json"
 							background="transparent"
 							speed="1"
 							style={{ width: '24px', height: '24px' }}
 							hover
 						></lottie-player>
-
 						<svg
 							width="24"
 							height="24"
@@ -58,12 +57,12 @@ export default function Home() {
 						</svg>
 					</div>
 				</div>
-				<div className={styles.body}>
-					<div className={styles.title}>Hi, I'm Julio Mayorga</div>
-					<div className={styles.subtitle}>UX Engineer at HOLOS Technology</div>
+				<div className="body">
+					<div className="title">Hi, I'm Julio Mayorga</div>
+					<div className="subtitle">UX Engineer at HOLOS Technology</div>
 				</div>
 				<div></div>
-				<div className={styles.presentation}>
+				<div className="presentation">
 					I'm an experienced product designer with three years of experience
 					conceptualizing and crafting digital products. I work end to end from
 					ideation to front-end development, provinding solid outcomes while

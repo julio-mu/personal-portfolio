@@ -23,3 +23,64 @@ a {
 * {
 	box-sizing: border-box;
 }
+
+.container {
+	min-height: 100vh;
+	background-color: #121212;
+	padding: 0px 8rem;
+}
+
+.main {
+	padding: 1.5rem 0;
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
+}
+
+.header {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+}
+
+.logo {
+	color: #fcfcfc;
+	font-size: 1rem;
+	font-weight: 700;
+}
+
+.body {
+	margin: 5rem 0rem 30rem 0rem;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+}
+
+.title {
+	margin: 0;
+	line-height: 1.15;
+	font-size: 6rem;
+	font-weight: 700;
+}
+
+.subtitle {
+	font-size: 1.25rem;
+	font-weight: 400;
+	letter-spacing: 0.02rem;
+	margin-left: 0.4rem;
+}
+
+.presentation {
+	font-size: 1.25rem;
+	letter-spacing: 0.02rem;
+}
+
+.headerIcons {
+	display: grid;
+	grid-template-columns: repeat(4, 20%);
+	grid-column-gap: 0.5rem;
+}
