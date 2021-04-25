@@ -1,7 +1,8 @@
 import Head from 'next/head';
-<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>;
+import Link from 'next/link';
 
 export default function Home() {
+	<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>;
 	return (
 		<div className="container">
 			<Head>
@@ -13,38 +14,45 @@ export default function Home() {
 				<div className="header">
 					<div className="logo">JULIOMU_</div>
 					<div className="headerIcons">
+						<a href="https://www.behance.net/juliomu" target="_blank">
+							<lottie-player
+								src="https://assets2.lottiefiles.com/private_files/lf30_qbopezhr.json"
+								background="transparent"
+								speed="1"
+								style={{ width: '32px', height: '32px' }}
+								hover
+							></lottie-player>
+						</a>
 						<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
-						<lottie-player
-							src="https://assets2.lottiefiles.com/private_files/lf30_qbopezhr.json"
-							background="transparent"
-							speed="1"
-							style={{ width: '32px', height: '32px' }}
-							hover
-						></lottie-player>
+						<a href="https://github.com/julio-mu" target="_blank">
+							<lottie-player
+								src="https://assets7.lottiefiles.com/packages/lf20_nwvalyrc.json"
+								background="transparent"
+								speed="1"
+								style={{ width: '32px', height: '32px' }}
+								hover
+							></lottie-player>
+						</a>
 						<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
-						<lottie-player
-							src="https://assets7.lottiefiles.com/packages/lf20_nwvalyrc.json"
-							background="transparent"
-							speed="1"
-							style={{ width: '32px', height: '32px' }}
-							hover
-						></lottie-player>
+						<a href="http://instagram.com/juliomu_" target="_blank">
+							<lottie-player
+								src="https://assets4.lottiefiles.com/private_files/lf30_uxy2kzdu.json"
+								background="transparent"
+								speed="1"
+								style={{ width: '32px', height: '32px' }}
+								hover
+							></lottie-player>
+						</a>
 						<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
-						<lottie-player
-							src="https://assets4.lottiefiles.com/private_files/lf30_uxy2kzdu.json"
-							background="transparent"
-							speed="1"
-							style={{ width: '32px', height: '32px' }}
-							hover
-						></lottie-player>
-						<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
-						<lottie-player
-							src="https://assets3.lottiefiles.com/private_files/lf30_e2uywytr.json"
-							background="transparent"
-							speed="1"
-							style={{ width: '32px', height: '32px' }}
-							hover
-						></lottie-player>
+						<a href="https://www.linkedin.com/in/juliomu/" target="_blank">
+							<lottie-player
+								src="https://assets3.lottiefiles.com/private_files/lf30_e2uywytr.json"
+								background="transparent"
+								speed="1"
+								style={{ width: '32px', height: '32px' }}
+								hover
+							></lottie-player>
+						</a>
 					</div>
 				</div>
 				<div className="body">
