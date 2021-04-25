@@ -178,7 +178,7 @@ export default function Home() {
 				>
 					I'm an experienced product designer with three years of experience
 					conceptualizing and crafting digital products. I work end to end from
-					ideation to front-end development, provinding solid outcomes in terms
+					ideation to front-end development, providing solid outcomes in terms
 					of product strategy, facilitation and prototyping. Skilled and
 					creative establishing products, content and experience strategy.
 					Passionate about finding ways to make a product clear and easy to use
