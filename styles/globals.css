@@ -4,6 +4,7 @@ body {
 	margin: 0;
 	font-family: -apple-system, Inter, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell,
 		Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+	background-color: #121212;
 	color: #fcfcfc;
 }
 ::-webkit-scrollbar {
@@ -26,7 +27,6 @@ a {
 
 .container {
 	min-height: 100vh;
-	background-color: #121212;
 	padding: 0px 8rem;
 }
 
@@ -49,12 +49,12 @@ a {
 
 .logo {
 	color: #fcfcfc;
-	font-size: 1rem;
-	font-weight: 700;
+	font-size: 1.25rem;
+	font-weight: 400;
 }
 
 .body {
-	margin: 5rem 0rem 30rem 0rem;
+	margin: 5rem 0rem 12.5rem 0rem;
 	display: flex;
 	flex-direction: column;
 	align-items: flex-start;
@@ -83,4 +83,34 @@ a {
 	display: grid;
 	grid-template-columns: repeat(4, 20%);
 	grid-column-gap: 0.5rem;
+}
+.tabs {
+	width: 100%;
+	display: grid;
+	grid-template-columns: repeat(5, 20%);
+}
+
+@media screen and (max-width: 1024px) {
+	.container {
+		min-height: 100vh;
+		padding: 0px 2rem;
+	}
+	.title {
+		margin: 0px 0px 2rem 0px;
+		line-height: 1.15;
+		font-size: 4rem;
+		font-weight: 700;
+	}
+
+	.subtitle {
+		font-size: 1.5rem;
+		font-weight: 400;
+		letter-spacing: 0.02rem;
+		margin-left: 0.4rem;
+	}
+}
+@media screen and (max-width: 600px) {
+	.logo {
+		display: none;
+	}
 }
