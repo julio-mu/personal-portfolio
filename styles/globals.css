@@ -111,7 +111,7 @@ a {
 }
 @media screen and (max-width: 600px) {
 	.title {
-		margin: 0px 0px 2rem 0px;
+		margin: 0px 0px 1rem 0px;
 		line-height: 1.15;
 		font-size: 3rem;
 		font-weight: 700;
