@@ -1,21 +1,26 @@
 import { useEffect, useRef, useState } from 'react';
 import Head from 'next/head';
-/* import { hotjar } from 'react-hotjar'; */
+import { hotjar } from 'react-hotjar';
 
 /* <!-- Hotjar Tracking Code for http://juliomu.netlify.com --> */
 /* hotjar.initialize((hjid: 2099858), (hjsv: 6)); */
-/* if (typeof document !== 'undefined') {
+if (typeof document !== 'undefined') {
 	<script>
-    (function(h,o,t,j,a,r){
-        h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
-        h._hjSettings={hjid:2099858,hjsv:6};
-        a=o.getElementsByTagName('head')[0];
-        r=o.createElement('script');r.async=1;
-        r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
-        a.appendChild(r);
-    })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
-</script> 
-}*/
+		{(function (h, o, t, j, a, r) {
+			h.hj =
+				h.hj ||
+				function () {
+					(h.hj.q = h.hj.q || []).push(arguments);
+				};
+			h._hjSettings = { hjid: 2099858, hjsv: 6 };
+			a = o.getElementsByTagName('head')[0];
+			r = o.createElement('script');
+			r.async = 1;
+			r.src = t + h._hjSettings.hjid + j + h._hjSettings.hjsv;
+			a.appendChild(r);
+		})(window, document, 'https://static.hotjar.com/c/hotjar-', '.js?sv=')}
+	</script>;
+}
 /* const AboutMe = () => (
 	<div>
 		<div>About Me</div>
