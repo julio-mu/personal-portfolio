@@ -1,9 +1,6 @@
-import { useEffect, useRef, useState } from 'react';
+import { useEffect, useRef } from 'react';
 import Head from 'next/head';
-import { hotjar } from 'react-hotjar';
 
-/* <!-- Hotjar Tracking Code for http://juliomu.netlify.com --> */
-/* hotjar.initialize((hjid: 2099858), (hjsv: 6)); */
 if (typeof document !== 'undefined') {
 	<script>
 		{(function (h, o, t, j, a, r) {
@@ -21,90 +18,8 @@ if (typeof document !== 'undefined') {
 		})(window, document, 'https://static.hotjar.com/c/hotjar-', '.js?sv=')}
 	</script>;
 }
-/* const AboutMe = () => (
-	<div>
-		<div>About Me</div>
-		<div className="presentation">
-			I'm an experienced product designer with three years of experience
-			conceptualizing and crafting digital products. I work end to end from
-			ideation to front-end development, provinding solid outcomes in terms of
-			product strategy, facilitation and prototyping. Skilled and creative
-			establishing products, content and experience strategy. I proud myself of
-			being a long term thinker which always takes care of the details in the
-			process. Passionate about finding ways to make a product clear and easy to
-			use in order to achieve its goals. Proficient delivering user flows,
-			information architecture, wireframes and prototypes.
-		</div>
-	</div>
-);
-
-const ProductDesigner = () => (
-	<div>
-		<div>Product design</div>
-		<div className="presentation">lalalalalalalal</div>
-	</div>
-);
-const FrontEndDevelopment = () => (
-	<div>
-		<div>Front end development</div>
-		<div className="presentation">222222222222</div>
-	</div>
-);
-const Linkedin = () => (
-	<div>
-		<div>Linkedin</div>
-		<div className="presentation">3333333333333333</div>
-	</div>
-);
-const Instagram = () => (
-	<div>
-		<div>Instagram</div>
-		<div className="presentation">4444444444444</div>
-	</div>
-); */
 
 export default function Home() {
-	/* const [showGithub, setShowGithub] = useState(false);
-	const [showBehance, setShowBehance] = useState(false);
-	const [showInstagram, setShowInstagram] = useState(false);
-	const [showAboutme, setShowAboutme] = useState(false);
-	const [showLinkedin, setShowLinkedin] = useState(false);
-
-	const onGithubClick = () => {
-		setShowGithub(true);
-		setShowInstagram(false);
-		setShowBehance(false);
-		setShowAboutme(false);
-		setShowLinkedin(false);
-	};
-	const onBehanceClick = () => {
-		setShowBehance(true);
-		setShowInstagram(false);
-		setShowGithub(false);
-		setShowAboutme(false);
-		setShowLinkedin(false);
-	};
-	const onAboutmeClick = () => {
-		setShowAboutme(true);
-		setShowInstagram(false);
-		setShowGithub(false);
-		setShowBehance(false);
-		setShowLinkedin(false);
-	};
-	const onLinkedinClick = () => {
-		setShowLinkedin(true);
-		setShowInstagram(false);
-		setShowGithub(false);
-		setShowBehance(false);
-		setShowAboutme(false);
-	};
-	const onInstagramClick = () => {
-		setShowInstagram(true);
-		setShowAboutme(false);
-		setShowGithub(false);
-		setShowBehance(false);
-		setShowLinkedin(false);
-	}; */
 	const ref = useRef(null);
 	useEffect(() => {
 		import('@lottiefiles/lottie-player');
@@ -113,8 +28,22 @@ export default function Home() {
 	return (
 		<div className="container">
 			<Head>
-				<title>Julio Mayorga Ubiría</title>
-				<link rel="icon" href="/favicon.ico" />
+				<meta charset="UTF-8" />
+				<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+				<meta name="author" content="Julio Mayorga Ubiría" />
+				<meta
+					property="og:title"
+					content="Julio Mayorga Ubiría - Personal Portfolio"
+				/>
+				<meta
+					property="og:description"
+					content="I’m a Product designer skilled and creative stablishing products, content and experience strategies. I work end to end from research and strategy ideation to prototyping and facilitation with a solid UI design skillset and a front-end development background."
+				/>
+				<meta property="og:image" content="https://i.imgur.com/7obssea.jpg" />
+				<meta property="og:url" content="http://juliomu.netlify.com" />
+				<link rel="icon" href="https://i.imgur.com/oidfUae.png" />
+				<link rel="stylesheet" href="style.css" type="text/css" />
+				<title>Personal portfolio - Julio Mayorga Ubiría</title>
 			</Head>
 
 			<main className="main">
@@ -172,15 +101,7 @@ export default function Home() {
 					<div className="subtitle">UX Engineer at HOLOS Technology</div>
 				</div>
 
-				<div
-					className="subtitle"
-					/* 					style={{
-						fontSize: '18px',
-						lineHeight: '1.5',
-						letterSpacing: '0.03rem',
-						marginBottom: '24px',
-					}} */
-				>
+				<div className="subtitle">
 					I'm an experienced product designer with three years of experience
 					conceptualizing and crafting digital products. I work end to end from
 					ideation to front-end development, providing solid outcomes in terms
@@ -201,65 +122,6 @@ export default function Home() {
 				>
 					juliomu.biz@gmail.com
 				</div>
-				{/* 				<div className="tabs">
-					<div onClick={onBehanceClick}>
-						<lottie-player
-							ref={ref}
-							src="https://assets2.lottiefiles.com/private_files/lf30_qbopezhr.json"
-							background="transparent"
-							speed="1"
-							style={{ width: '250px', height: '250px' }}
-							hover
-						></lottie-player>
-					</div>
-					<div onClick={onGithubClick}>
-						<lottie-player
-							ref={ref}
-							src="https://assets7.lottiefiles.com/packages/lf20_nwvalyrc.json"
-							background="transparent"
-							speed="1"
-							style={{ width: '250px', height: '250px' }}
-							hover
-						></lottie-player>
-					</div>
-
-					<div onClick={onLinkedinClick}>
-						<lottie-player
-							ref={ref}
-							src="https://assets4.lottiefiles.com/private_files/lf30_uxy2kzdu.json"
-							background="transparent"
-							speed="1"
-							style={{ width: '250px', height: '250px' }}
-							hover
-						></lottie-player>
-					</div>
-
-					<div onClick={onInstagramClick}>
-						<lottie-player
-							ref={ref}
-							src="https://assets3.lottiefiles.com/private_files/lf30_e2uywytr.json"
-							background="transparent"
-							speed="1"
-							style={{ width: '250px', height: '250px' }}
-							hover
-						></lottie-player>
-					</div>
-					<div onClick={onAboutmeClick}>
-						<lottie-player
-							ref={ref}
-							src="https://assets3.lottiefiles.com/private_files/lf30_e2uywytr.json"
-							background="transparent"
-							speed="1"
-							style={{ width: '250px', height: '250px' }}
-							hover
-						></lottie-player>
-					</div>
-				</div>
-				{showAboutme ? <AboutMe /> : null}
-				{showBehance ? <ProductDesigner /> : null}
-				{showGithub ? <FrontEndDevelopment /> : null}
-				{showInstagram ? <Instagram /> : null}
-				{showLinkedin ? <Linkedin /> : null} */}
 			</main>
 		</div>
 	);
