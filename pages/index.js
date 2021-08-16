@@ -98,7 +98,7 @@ export default function Home() {
 				</div>
 				<div className="body">
 					<div className="title">Hi, I'm Julio Mayorga</div>
-					<div className="subtitle">UX Engineer at HOLOS Technology</div>
+					<div className="subtitle">Product designer</div>
 				</div>
 
 				<div className="subtitle">
