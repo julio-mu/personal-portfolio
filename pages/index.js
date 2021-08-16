@@ -40,7 +40,7 @@ export default function Home() {
 					content="I’m a Product designer skilled and creative stablishing products, content and experience strategies. I work end to end from research and strategy ideation to prototyping and facilitation with a solid UI design skillset and a front-end development background."
 				/>
 				<meta property="og:image" content="https://i.imgur.com/7obssea.jpg" />
-				<meta property="og:url" content="http://juliomu.netlify.com" />
+				<meta property="og:url" content="http://juliomu.com" />
 				<link rel="icon" href="https://i.imgur.com/oidfUae.png" />
 				<link rel="stylesheet" href="style.css" type="text/css" />
 				<title>Personal portfolio - Julio Mayorga Ubiría</title>
@@ -98,18 +98,15 @@ export default function Home() {
 				</div>
 				<div className="body">
 					<div className="title">Hi, I'm Julio Mayorga</div>
-					<div className="subtitle">Product designer</div>
+					<div className="subtitle">Senior product designer</div>
 				</div>
 
 				<div className="subtitle">
-					I'm an experienced product designer with three years of experience
-					conceptualizing and crafting digital products. I work end to end from
-					ideation to front-end development, providing solid outcomes in terms
-					of product strategy, facilitation and prototyping. Skilled and
-					creative establishing products, content and experience strategy.
-					Passionate about finding ways to make a product clear and easy to use
-					in order to achieve its goals. Proficient delivering user flows,
-					information architecture, wireframes and prototypes.
+					Understanding problems and creating solutions. I’m skilled and
+					creative stablishing simple and practical products and experience
+					strategies. Passionate about finding ways to make a product clear and
+					easy to use in order to achieve its goals. Proficient delivering user
+					flows, information architecture, wireframes and prototypes.
 				</div>
 				<div
 					style={{
