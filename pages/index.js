@@ -98,15 +98,17 @@ export default function Home() {
 				</div>
 				<div className="body">
 					<div className="title">Hi, I'm Julio Mayorga</div>
-					<div className="subtitle">Senior product designer</div>
+					<div className="subtitle">
+						Product designer based in Mendoza, Argentina
+					</div>
 				</div>
 
 				<div className="subtitle">
-					Understanding problems and creating solutions. I’m skilled and
-					creative stablishing simple and practical products and experience
-					strategies. Passionate about finding ways to make a product clear and
-					easy to use in order to achieve its goals. Proficient delivering user
-					flows, information architecture, wireframes and prototypes.
+					I’m skilled and creative stablishing simple and practical products and
+					experience strategies. Passionate about finding ways to make a product
+					clear and easy to use in order to achieve its goals. Proficient
+					delivering user flows, information architecture, wireframes and
+					prototypes.
 				</div>
 				<div
 					style={{
