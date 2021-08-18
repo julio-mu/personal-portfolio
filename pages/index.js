@@ -43,7 +43,7 @@ export default function Home() {
 				<meta property="og:url" content="http://juliomu.com" />
 				<link rel="icon" href="https://i.imgur.com/oidfUae.png" />
 				<link rel="stylesheet" href="style.css" type="text/css" />
-				<title>Personal portfolio / Julio Mayorga Ubiría</title>
+				<title>Personal portfolio - Julio Mayorga Ubiría</title>
 			</Head>
 
 			<main className="main">
