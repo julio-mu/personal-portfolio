@@ -41,6 +41,11 @@ export default function Home() {
 				/>
 				<meta property="og:image" content="https://i.imgur.com/7obssea.jpg" />
 				<meta property="og:url" content="http://juliomu.com" />
+				{/*Pinterest claim*/}
+				<meta
+					name="p:domain_verify"
+					content="15087591809132734ab8aac326cbc607"
+				/>
 				<link rel="icon" href="https://i.imgur.com/oidfUae.png" />
 				<link rel="stylesheet" href="style.css" type="text/css" />
 				<title>Personal portfolio / Julio Mayorga Ubiría</title>
