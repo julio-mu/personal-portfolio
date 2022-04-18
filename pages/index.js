@@ -51,7 +51,7 @@ export default function Home() {
         <meta
           property="og:image"
           itemProp="image"
-          content={"https://juliomu.com/circlePurple.png?"}
+          content={"https://juliomu.com/meSydney.jpeg?"}
         />
         <link rel="icon" href="https://i.imgur.com/I8CjsDS.png" />
         <link rel="stylesheet" href="style.css" type="text/css" />
