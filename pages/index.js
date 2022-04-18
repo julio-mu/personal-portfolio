@@ -1,7 +1,7 @@
 import { useEffect, useRef } from 'react';
 import Head from 'next/head';
-import PortfolioV1 from './versions/v1/v1';
-import PortfolioV2 from './versions/v2/v2';
+import PortfolioV1 from '../versions/v1/v1';
+import PortfolioV2 from '../versions/v2/v2';
 
 // if (typeof document !== 'undefined') {
 // 	<script>
