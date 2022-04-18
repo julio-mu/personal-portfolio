@@ -48,7 +48,7 @@ export default function Home() {
 					name="p:domain_verify"
 					content="15087591809132734ab8aac326cbc607"
 				/>
-				<link rel="icon" href="https://i.imgur.com/oidfUae.png" />
+				<link rel="icon" href="https://i.imgur.com/I8CjsDS.png" />
 				<link rel="stylesheet" href="style.css" type="text/css" />
 				<title>Personal portfolio / Julio Mayorga Ubiría</title>
 			</Head>
