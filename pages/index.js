@@ -41,7 +41,6 @@ export default function Home() {
           property="og:description"
           content="I'm a Product designer skilled and creative stablishing products, content and experience strategies. I work end to end from research and strategy ideation to prototyping and facilitation with a solid UI design skillset and a front-end development background."
         />
-        <meta property="og:image" content="https://i.imgur.com/7obssea.jpg" />
         <meta property="og:url" content="http://juliomu.com" />
         {/*Pinterest claim*/}
         <meta
