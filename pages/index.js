@@ -28,31 +28,37 @@ export default function Home() {
 	});
 
 	return (
-		<div className="container">
-			<Head>
-				<meta charset="UTF-8" />
-				<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-				<meta name="author" content="Julio Mayorga Ubiría" />
-				<meta
-					property="og:title"
-					content="Julio Mayorga Ubiría - Personal Portfolio"
-				/>
-				<meta
-					property="og:description"
-					content="I'm a Product designer skilled and creative stablishing products, content and experience strategies. I work end to end from research and strategy ideation to prototyping and facilitation with a solid UI design skillset and a front-end development background."
-				/>
-				<meta property="og:image" content="https://i.imgur.com/7obssea.jpg" />
-				<meta property="og:url" content="http://juliomu.com" />
-				{/*Pinterest claim*/}
-				<meta
-					name="p:domain_verify"
-					content="15087591809132734ab8aac326cbc607"
-				/>
-				<link rel="icon" href="https://i.imgur.com/I8CjsDS.png" />
-				<link rel="stylesheet" href="style.css" type="text/css" />
-				<title>Personal portfolio / Julio Mayorga Ubiría</title>
-			</Head>
-			<PortfolioV2/>
-		</div>
-	);
+    <div className="container">
+      <Head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="author" content="Julio Mayorga Ubiría" />
+        <meta
+          property="og:title"
+          content="Julio Mayorga Ubiría - Personal Portfolio"
+        />
+        <meta
+          property="og:description"
+          content="I'm a Product designer skilled and creative stablishing products, content and experience strategies. I work end to end from research and strategy ideation to prototyping and facilitation with a solid UI design skillset and a front-end development background."
+        />
+        <meta property="og:image" content="https://i.imgur.com/7obssea.jpg" />
+        <meta property="og:url" content="http://juliomu.com" />
+        {/*Pinterest claim*/}
+        <meta
+          name="p:domain_verify"
+          content="15087591809132734ab8aac326cbc607"
+        />
+        <meta
+          property="og:image"
+          itemProp="image"
+          content={"https://juliomu.com/circlePurple.png?"}
+        />
+        <link rel="icon" href="https://i.imgur.com/I8CjsDS.png" />
+        <link rel="stylesheet" href="style.css" type="text/css" />
+
+        <title>Personal portfolio / Julio Mayorga Ubiría</title>
+      </Head>
+      <PortfolioV2 />
+    </div>
+  );
 }
