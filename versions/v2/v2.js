@@ -134,7 +134,8 @@ export default function PortfolioV2() {
             height: "600px",
             marginTop: "-148px",
           }}
-          hover
+          autoplay
+          loop
         ></lottie-player>
       </div>
       <div className="fixed -bottom-1/4 -left-28 opacity-5">
