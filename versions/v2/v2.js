@@ -68,7 +68,7 @@ export default function PortfolioV2() {
               </div>
               <div className="flex flex-row items-center sm:items-start sm:justify-between">
                 <div className="font-semibold text-2xl sm:text-lg sm:pt-4">
-                  Product designer based in Sydney, Australia
+                  Product designer based in Mendoza, Argentina
                 </div>
 				<div className="visible sm:hidden">
                 <lottie-player
