@@ -84,7 +84,7 @@ export default function PortfolioV2() {
               </div>
               <div className="flex flex-row">
                 <div className="font-normal text-base w-3/6 sm:w-full md:w-3/4 lg:w-3/4 sm:pt-4">
-                  I’m a designer who loves stablishing practical strategies for
+                  I’m a designer who loves establishing practical strategies for
                   products and always gets passionate about making them clear
                   and easy to use 😍
                 </div>
