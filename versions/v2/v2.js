@@ -24,7 +24,7 @@ export default function PortfolioV2() {
               loop
             ></lottie-player>
             <Link
-              href="https://drive.google.com/file/d/1Vh8OzQQEIdmN5mskHgZU3z6H5BT4kFHW/view?usp=sharing"
+              href="https://drive.google.com/file/d/1QGNox0gqu3fmiTZxaulH4KdjlI2zrz26/view?usp=sharing"
               passHref={true}
             >
               <a
