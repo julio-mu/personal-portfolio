@@ -32,7 +32,7 @@ export default function PortfolioV2() {
                 rel="noreferrer"
                 className="font-normal text-base underline"
               >
-                Download my curriculum
+                Download my CV
               </a>
             </Link>
           </div>
